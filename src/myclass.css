@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background-color: #cccccc;
+}
+#div{
+    width: 800px;
+    height: 400px;
+    position:absolute;
+    left:0;top:0;right:0;bottom:0;
+    margin:auto;
+    background-image: url("img/beijing.jpg");
+    border-radius: 20px;
+}
+#mark{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    margin: 150px auto;
+}
+#res{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    z-index: 999;
+    border-radius: 50%;
+    display: none;
+    text-align: center;
+}
+#res p{
+    line-height: 200px;
+}
+#res h2{
+    text-align: center;
+    padding: 5px 0;
+}
+#res img{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
